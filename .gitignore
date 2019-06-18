@@ -30,3 +30,4 @@ _ReSharper*/
 Sitecore.*.dll
 *.dotcover
 IconCache/
+code/.vs/
