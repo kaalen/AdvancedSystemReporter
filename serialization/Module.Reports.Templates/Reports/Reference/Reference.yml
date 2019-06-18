@@ -1,0 +1,18 @@
+﻿---
+ID: "4b98bc78-089b-4364-bfd7-93cdd121668e"
+Parent: "cb65cd27-96fb-4e9a-8610-73a9b0138b7a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Reports/Reference/Reference
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080708T172519
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

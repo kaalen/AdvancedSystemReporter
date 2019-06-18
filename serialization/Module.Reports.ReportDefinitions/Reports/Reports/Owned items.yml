@@ -1,0 +1,37 @@
+﻿---
+ID: "6cedacce-2eab-437b-b9fd-c7ea936eea83"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Owned items
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_certificate.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090514T114553
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{F28FC608-581E-41F5-BA49-14D4151A854C}"
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: |
+        {4B7ED53C-6966-4D62-854E-BDD8EC913409}
+        {586CB36D-FDCB-4FBB-8766-B5C4B810191B}
+        {3DDCB4A3-415F-4726-8262-4854A599878A}
+        {754D0673-D682-434C-9CB8-E81CB09ADFC9}
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: <p>This is a list of all items that have the selected account as owner</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{A95C18FD-0F15-486A-8C87-A02D06F151E2}"

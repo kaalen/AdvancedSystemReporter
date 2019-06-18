@@ -1,0 +1,21 @@
+﻿---
+ID: "8294830e-2d73-4717-8734-d3fc831224e4"
+Parent: "216de2a0-4849-44f2-bf1e-85f593ab2b02"
+Template: "7f01aae6-90d8-4f48-a9da-7b48e28a56b3"
+Path: /sitecore/system/Modules/Reports/Reports/Locked Items/Locked Items
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170517T232747Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "eb14c49d-b95c-4104-86f7-d5c96fa33952"
+      Hint: Parameters
+      Value: "id={216DE2A0-4849-44F2-BF1E-85F593AB2B02}&{A9D22899-C137-4B62-86FA-3400E0AD3861}^Root=/sitecore/content/Unitywater/Home&{9A5A46A8-F652-47DE-B712-BA43B244BEF1}^User=&{9A5A46A8-F652-47DE-B712-BA43B244BEF1}^Age=-1"

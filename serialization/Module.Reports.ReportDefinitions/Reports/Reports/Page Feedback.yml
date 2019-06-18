@@ -1,0 +1,29 @@
+﻿---
+ID: "d536f1f1-5ec6-4724-8222-0294297297d5"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Page Feedback
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170511T065026Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{4D890CF5-A2D3-4D6D-85C7-30EE69164315}"
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: This report list page feedback received.
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{CBB19607-01FF-4603-A92A-387D823C1171}"

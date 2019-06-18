@@ -1,0 +1,31 @@
+﻿---
+ID: "754d0673-d682-434c-9cb8-e81cb09adfc9"
+Parent: "f7bfc9af-bcb8-4da2-8bf1-1186177b1b9c"
+Template: "a2f37fa0-b644-4fa1-8dbe-6dd346f48abb"
+Path: /sitecore/system/Modules/Reports/Configuration/Commands/Copy To
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Core3/16x16/copy_to_folder.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090714T133422
+    - ID: "4754b397-f055-4d4a-ac74-fd09390bc8f3"
+      Hint: Title
+      Value: Copy To
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b026dcd1-c3e9-4061-9f7a-7a61f200d383"
+      Hint: Command
+      Value: "item:copyto"
+    - ID: "f48567f6-cc4c-4aa9-b722-eba7b878b40c"
+      Hint: Icon
+      Value: Core3/16x16/copy_to_folder.png

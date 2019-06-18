@@ -1,0 +1,23 @@
+﻿---
+ID: "4503299d-8b00-4e21-b5b4-8a71e5507199"
+Parent: "5ba3f3f4-e6b7-4d8a-b3cb-2fa7790b82b4"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Modules/Reports/Configuration/Filters
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1383EBC6-BCC4-451D-8E33-7F74921F6664}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080811T135428
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

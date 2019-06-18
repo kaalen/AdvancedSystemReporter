@@ -1,0 +1,36 @@
+﻿---
+ID: "a3694f74-de0a-46f7-970b-1b1aa39e25d0"
+Parent: "52d584d8-1b50-43a1-bbe0-1176cf93361e"
+Template: "72450c9c-98c4-4117-88b7-573110c7e0c0"
+Path: /sitecore/content/Applications/Advanced System Reporter/Links/sitecore_Admin/Multiple versions
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/documents.png
+- ID: "238a40da-15f2-4412-b720-8f192ffa7491"
+  Hint: Icon
+  Value: Applications/32x32/documents.png
+- ID: "8a1ac797-0304-4c50-aaac-4d9dbbff435f"
+  Hint: Application
+  Value: |
+    <link linktype="internal" url="/Applications/Advanced System Reporter" querystring="" id="{605C3AD5-4D6E-4297-98C9-7638BE5A82EA}" target="" />
+- ID: "90a4607c-71b4-4d46-a921-25ef798193d8"
+  Hint: Parameters
+  Value: "id={E623EAFD-9ADD-4F72-91E3-49C78F286FCE}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content/Unitywater/Home&{0C159468-0D7E-436E-B526-BD3CE6437B43}^NumOfVersions=5"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Multiple versions
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170503T035029Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

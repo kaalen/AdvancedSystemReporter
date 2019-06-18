@@ -1,0 +1,39 @@
+﻿---
+ID: "4cd235c1-28af-43d7-94a4-bd72789a9152"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Active Aliases
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/dude5.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100724T170157
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{E680B66D-C4FE-4B08-A8F5-438BE8860841}"
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: |
+        {EF12F271-E82B-473B-A851-5A57C06C1FA1}
+        {6D45C5C2-6A37-462C-A021-2568EABA3FB9}
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: <p>This report shows all active aliases and allows the user to delete or rename them.</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{0751B146-851C-4766-88D2-CE00AE26961A}"

@@ -1,0 +1,23 @@
+﻿---
+ID: "6312a2a7-fea2-4a93-90d7-391cac9307a4"
+Parent: "1726dd7e-2e74-42a6-bab5-d20dd0c2f8ff"
+Template: "94ccfdab-0f13-4dd3-895b-831a3a52aac0"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/User
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090506T110929
+    - ID: "6331c506-8590-48a9-b346-3b394a0f6135"
+      Hint: Title
+      Value: User
+    - ID: "68030a84-f6f1-473f-bb09-6168ac9409a4"
+      Hint: Type
+      Value: User Selector
+    - ID: "c4a7166d-a7c1-473c-b0ab-df1a27175fe8"
+      Hint: Parameters
+      Value: filter=users

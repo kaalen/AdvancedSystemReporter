@@ -1,0 +1,43 @@
+﻿---
+ID: "6edc21ad-4c9b-4365-98d9-04a4694a9765"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Content Inventory
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170513T155754Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{48AC0F62-E5B8-4C79-9164-6116E05D1E4C}"
+    - ID: "b5ebdc93-c3ab-4438-89fb-a8d7f5552110"
+      Hint: Filters
+      Type: Multilist
+      Value: |
+        {CC5DD1AF-5BE4-4698-A456-6E5BBFA8AC19}
+        {D77D964B-FA9A-459D-82CF-BC9E05A3E9DF}
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: "{EC6AE8DE-5B37-4BB9-9F54-BFD04EBCF209}"
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: Shows an inventory of content pages with their associated metadata.
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}"

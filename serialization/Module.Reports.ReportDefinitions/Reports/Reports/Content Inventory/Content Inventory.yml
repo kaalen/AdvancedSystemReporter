@@ -1,0 +1,21 @@
+﻿---
+ID: "c10a7195-3fde-46d5-8d87-780cdcc2629a"
+Parent: "6edc21ad-4c9b-4365-98d9-04a4694a9765"
+Template: "7f01aae6-90d8-4f48-a9da-7b48e28a56b3"
+Path: /sitecore/system/Modules/Reports/Reports/Content Inventory/Content Inventory
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170517T030811Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "eb14c49d-b95c-4104-86f7-d5c96fa33952"
+      Hint: Parameters
+      Value: "id={6EDC21AD-4C9B-4365-98D9-04A4694A9765}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content/Unitywater/Home&{D77D964B-FA9A-459D-82CF-BC9E05A3E9DF}^ContentOwner="

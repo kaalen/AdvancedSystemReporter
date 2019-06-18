@@ -1,0 +1,27 @@
+﻿---
+ID: "3d7fa1e3-847c-4604-8b61-e2134408f8fa"
+Parent: "46497bb3-6b24-4323-80d7-5e6bbaa173e3"
+Template: "68fb3baf-dc35-4dd3-adf7-ff2d3d35ec67"
+Path: /sitecore/system/Modules/Reports/Configuration/Scanners/All Publishable Items
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090814T104300
+    - ID: "49eb5881-0aea-4d84-9850-1f8a9a2183fe"
+      Hint: Class
+      Value: Sitecore.Feature.Reports.Scanners.PublishableItems
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser
+    - ID: "60acfb3b-d34d-43d8-8b57-86d26b30dd5a"
+      Hint: Attributes
+      Value: "Query=fast:{Root}/descendant-or-self::*|date={Date}|approved=true"
+    - ID: "6fb5beba-ecd8-4b56-b20a-bf292193d491"
+      Hint: Assembly
+      Value: Sitecore.Feature.Reports

@@ -1,0 +1,33 @@
+﻿---
+ID: "ed67f1e0-54f7-4080-b23e-5f38599db18a"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Broken Links in publishable items
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/link_new.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100427T105915
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{F28FC608-581E-41F5-BA49-14D4151A854C}"
+    - ID: "b5ebdc93-c3ab-4438-89fb-a8d7f5552110"
+      Hint: Filters
+      Type: Multilist
+      Value: "{D0171559-7E78-4D8F-8D9F-7765AAB58D4C}"
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: <p>This report is thh same as Broken Links but only in currently publishable items</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{3D7FA1E3-847C-4604-8B61-E2134408F8FA}"

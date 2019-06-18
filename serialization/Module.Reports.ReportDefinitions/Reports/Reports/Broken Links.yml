@@ -1,0 +1,35 @@
+﻿---
+ID: "339d3839-4805-4af9-acf9-db6ae011b83f"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Broken Links
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/link_delete.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100427T105915
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{F28FC608-581E-41F5-BA49-14D4151A854C}"
+    - ID: "b5ebdc93-c3ab-4438-89fb-a8d7f5552110"
+      Hint: Filters
+      Type: Multilist
+      Value: "{D0171559-7E78-4D8F-8D9F-7765AAB58D4C}"
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: |
+        <p>It displays broken links on all below the selected root node. It differs from the standard Sitecore broken links viewer in that it only checks the most current version in the current language.</p>
+        <p><strong>Tip: </strong>Rebuild the links database from the Control Panel if you believe the broken links have been fixed but still show up in the report.</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}"

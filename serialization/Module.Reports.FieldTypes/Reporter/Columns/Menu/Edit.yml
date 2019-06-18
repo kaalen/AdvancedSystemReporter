@@ -1,0 +1,111 @@
+﻿---
+ID: "c9f2bc73-f02d-402a-bf67-e98449ddf98a"
+Parent: "031ac584-b1e6-480b-9891-d1da869429a9"
+Template: "998b965e-6ab8-4568-810f-8101d60d0cc3"
+Path: /sitecore/system/Field types/Reporter/Columns/Menu/Edit
+DB: core
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: tree list
+  Value: "{09B0EB6B-B6B6-4E40-8804-137A4CC14074}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 20
+- ID: "cab694fc-e37c-44eb-9012-488b775cf638"
+  Hint: Message
+  Value: "columns:edit(id=$Target)"
+Languages:
+- Language: da
+  Fields:
+  - ID: "9b72a62b-2775-423d-b17a-ec34a9f31af8"
+    Hint: Display name
+    Value: Tildel sikkerhed
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20080609T114802:633486088829822916"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: de
+  Fields:
+  - ID: "9b72a62b-2775-423d-b17a-ec34a9f31af8"
+    Hint: Display name
+    Value: Anhängen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20080609T114802:633486088829978916"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Fields:
+  - ID: "9b72a62b-2775-423d-b17a-ec34a9f31af8"
+    Hint: Display name
+    Value: Edit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080609T114746
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20060322T143107
+- Language: "fr-CA"
+  Fields:
+  - ID: "9b72a62b-2775-423d-b17a-ec34a9f31af8"
+    Hint: Display name
+    Value: Joindre
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20080609T114803:633486088830290916"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "nl-NL"
+  Fields:
+  - ID: "9b72a62b-2775-423d-b17a-ec34a9f31af8"
+    Hint: Display name
+    Value: Koppelen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20080609T114802:633486088829510916"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "sv-SE"
+  Fields:
+  - ID: "9b72a62b-2775-423d-b17a-ec34a9f31af8"
+    Hint: Display name
+    Value: Tillfoga
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20080609T114803:633486088830290916"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

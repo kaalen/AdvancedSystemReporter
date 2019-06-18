@@ -1,0 +1,18 @@
+﻿---
+ID: "eaeffd74-055e-453f-9860-47cd385b6580"
+Parent: "605c3ad5-4d6e-4297-98c9-7638be5a82ea"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Applications/Advanced System Reporter/Links
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090624T132803
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

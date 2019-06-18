@@ -1,0 +1,37 @@
+﻿---
+ID: "992eaaac-3bf4-4dff-a320-c7a9ea5dbc41"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Logged in Users
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/users4.png
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\WCMS Supervisor|pe|+item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090610T104105
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{D1E7820D-8097-4561-B355-0B4498A02B80}"
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: "{B24EFCF3-0291-4068-AABF-612050338CE6}"
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: <p>See a list of currently logged in users. You can also kick them out. They will be required to log in again when they try to access any functionality.</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{FDD948C3-91B9-4CED-8A89-68DF094ACCF6}"

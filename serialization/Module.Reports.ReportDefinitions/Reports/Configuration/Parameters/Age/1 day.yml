@@ -1,0 +1,21 @@
+﻿---
+ID: "ca6d5cd9-a9d3-497a-984c-65b60a26116c"
+Parent: "6b17b72e-d6aa-4271-840a-9ca2153a2e50"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/Age/1 day
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5871d-8232-4df5-8ee1-f2d038dee591"
+      Hint: Value
+      Value: 24
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090503T092718
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

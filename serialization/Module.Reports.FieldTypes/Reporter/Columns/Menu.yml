@@ -1,0 +1,18 @@
+﻿---
+ID: "031ac584-b1e6-480b-9891-d1da869429a9"
+Parent: "fe24486b-f99d-465f-804d-ecce22b6db0f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Field types/Reporter/Columns/Menu
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080609T114726
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

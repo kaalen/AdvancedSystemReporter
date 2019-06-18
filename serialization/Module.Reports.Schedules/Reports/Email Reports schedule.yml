@@ -1,0 +1,37 @@
+﻿---
+ID: "f7283eb0-515e-4cfc-b851-b398dfb9206c"
+Parent: "88db171f-75b8-4faf-ad69-60b5a22853de"
+Template: "70244923-fa84-477c-8cbd-62f39642c42b"
+Path: /sitecore/system/Tasks/Schedules/Feature/Reports/Email Reports schedule
+DB: master
+SharedFields:
+- ID: "50be51f8-746d-4dc2-9c3b-b14abc5ce9b7"
+  Hint: Schedule
+  Value: "||127|1.00:00:00"
+- ID: "62e64dbb-0a39-4dd7-ba05-7bd08c5404e0"
+  Hint: Command
+  Value: "{34DFE48A-8B58-4E27-9199-E72A855D8237}"
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "a2c0c7a2-697d-40e2-9516-54e0c2d6028e"
+  Hint: Async
+  Type: checkbox
+  Value: 1
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|Everyone|pe|!*|pd|!*|ar|modules\Feature Report Admin|pe|+item:write|+item:read|pd|+item:write|+item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090608T164237
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser

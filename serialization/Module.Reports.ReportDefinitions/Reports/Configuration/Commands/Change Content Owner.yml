@@ -1,0 +1,39 @@
+﻿---
+ID: "ec6ae8de-5b37-4bb9-9f54-bfd04ebcf209"
+Parent: "f7bfc9af-bcb8-4da2-8bf1-1186177b1b9c"
+Template: "a2f37fa0-b644-4fa1-8dbe-6dd346f48abb"
+Path: /sitecore/system/Modules/Reports/Configuration/Commands/Change Content Owner
+DB: master
+SharedFields:
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link url="http://www.sitecore.net" linktype="external" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: long
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: short
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090523T135849
+    - ID: "4754b397-f055-4d4a-ac74-fd09390bc8f3"
+      Hint: Title
+      Value: Change Content Owner
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b026dcd1-c3e9-4061-9f7a-7a61f200d383"
+      Hint: Command
+      Value: "reports:changecontentowner"
+    - ID: "f48567f6-cc4c-4aa9-b722-eba7b878b40c"
+      Hint: Icon
+      Value: Applications/32x32/document_certificate.png

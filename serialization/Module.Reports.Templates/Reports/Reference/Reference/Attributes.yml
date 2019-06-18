@@ -1,0 +1,37 @@
+﻿---
+ID: "60acfb3b-d34d-43d8-8b57-86d26b30dd5a"
+Parent: "4b98bc78-089b-4364-bfd7-93cdd121668e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Reports/Reference/Reference/Attributes
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Multi-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: |
+      use {} for including parameters
+      for envirnoment constants use $sc_currentuser, $sc_today, $sc_yesterday, $sc_lastweek
+      (check documentation for complete list)
+      
+      e.g. attr1=value|attr2={Parameter},value2|attr3=$sc_today
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: pipe separated, multiple values comma separated
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080808T145622
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,27 @@
+﻿---
+ID: "0daed923-e1ee-4f78-b66f-b036a1a03653"
+Parent: "1726dd7e-2e74-42a6-bab5-d20dd0c2f8ff"
+Template: "94ccfdab-0f13-4dd3-895b-831a3a52aac0"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/Date
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090806T110627
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser
+    - ID: "6331c506-8590-48a9-b346-3b394a0f6135"
+      Hint: Title
+      Value: Date
+    - ID: "6588527a-bdb0-4474-8912-c1872a294bde"
+      Hint: Default value
+      Value: $sc_today
+    - ID: "68030a84-f6f1-473f-bb09-6168ac9409a4"
+      Hint: Type
+      Value: Date picker

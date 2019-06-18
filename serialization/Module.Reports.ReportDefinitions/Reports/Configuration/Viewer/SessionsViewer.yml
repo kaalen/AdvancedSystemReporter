@@ -1,0 +1,28 @@
+﻿---
+ID: "d1e7820d-8097-4561-b355-0b4498a02b80"
+Parent: "63e5565e-7399-4bc8-82fc-c0faf8c9e84f"
+Template: "ff9d70eb-44cb-4777-b9ee-3308041928ce"
+Path: /sitecore/system/Modules/Reports/Configuration/Viewer/SessionsViewer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090610T104023
+    - ID: "2fe97449-f425-4789-ab93-c246bfa1749b"
+      Hint: Columns
+      Value: |
+        <Columns><Column name="user">User</Column><Column name="created">Created</Column><Column name="lastrequest">Last Request</Column><Column name="id">ID</Column></Columns>
+    - ID: "49eb5881-0aea-4d84-9850-1f8a9a2183fe"
+      Hint: Class
+      Value: Sitecore.Feature.Reports.Sessions.SessionsViewer
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6fb5beba-ecd8-4b56-b20a-bf292193d491"
+      Hint: Assembly
+      Value: Sitecore.Feature.Reports

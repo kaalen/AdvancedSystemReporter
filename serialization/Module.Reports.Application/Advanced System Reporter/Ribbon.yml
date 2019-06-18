@@ -1,0 +1,28 @@
+﻿---
+ID: "ee1860d8-09cb-49fe-9ab5-2f01d2d2d796"
+Parent: "605c3ad5-4d6e-4297-98c9-7638be5a82ea"
+Template: "3a1a3b48-3434-4e5a-8f05-ad6e1687d888"
+Path: /sitecore/content/Applications/Advanced System Reporter/Ribbon
+DB: core
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: tree list
+  Value: |
+    {9288FCAD-5AB8-48D5-965D-3094F793241D}
+    {047A3759-1DB3-4105-B56D-1D6AB081CE5A}
+    {79E55CB1-FDB0-460A-AB97-B629069F15DA}
+    {B40EE369-172F-4A95-BCF5-2A740DEA8F06}
+    {721C20B6-6E85-4702-8C5E-678A8FC4FA94}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090424T152911
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,53 @@
+﻿---
+ID: "216de2a0-4849-44f2-bf1e-85f593ab2b02"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Locked Items
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_lock.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080708T180600
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: |
+        {849E583C-C8AD-41CF-BDE9-8D68598623F3}
+        {F28FC608-581E-41F5-BA49-14D4151A854C}
+        {3AB1FBD3-B6CE-4E8D-B3DF-5BEC8EECF259}
+    - ID: "b5ebdc93-c3ab-4438-89fb-a8d7f5552110"
+      Hint: Filters
+      Type: Multilist
+      Value: "{9A5A46A8-F652-47DE-B712-BA43B244BEF1}"
+    - ID: "ba6571e9-4d3e-4381-b9c2-5c5da3095cd6"
+      Hint: Email Text
+      Value: |
+        Hi $sc_user, please unlock the item
+        $sc_item
+        
+        
+        Best regards,
+        
+        $sc_currentuser
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: |
+        {586CB36D-FDCB-4FBB-8766-B5C4B810191B}
+        {4B7ED53C-6966-4D62-854E-BDD8EC913409}
+        {3DDCB4A3-415F-4726-8262-4854A599878A}
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: "<p>This report allows non-admins to see all items locked in the system, even if they are not locked by them. It also allows anybody to unlock them. This behaviour can be modified through security.</p>"
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{A9D22899-C137-4B62-86FA-3400E0AD3861}"

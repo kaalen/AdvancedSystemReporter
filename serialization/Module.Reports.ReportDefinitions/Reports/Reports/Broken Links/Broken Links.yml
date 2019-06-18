@@ -1,0 +1,21 @@
+﻿---
+ID: "8e0eb407-84a3-46e5-9e7b-a4357970acf5"
+Parent: "339d3839-4805-4af9-acf9-db6ae011b83f"
+Template: "7f01aae6-90d8-4f48-a9da-7b48e28a56b3"
+Path: /sitecore/system/Modules/Reports/Reports/Broken Links/Broken Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170517T232632Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "eb14c49d-b95c-4104-86f7-d5c96fa33952"
+      Hint: Parameters
+      Value: "id={339D3839-4805-4AF9-ACF9-DB6AE011B83F}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content/Unitywater/Home"

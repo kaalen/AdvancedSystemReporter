@@ -1,0 +1,17 @@
+﻿---
+ID: "b113edf2-20d3-4868-97a2-8466c28efcf5"
+Parent: "f01e0ea9-fc8b-4854-996e-3d37f0e1bc2c"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/AgeISO/Last year
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5871d-8232-4df5-8ee1-f2d038dee591"
+      Hint: Value
+      Value: $sc_lastyear
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090714T113214

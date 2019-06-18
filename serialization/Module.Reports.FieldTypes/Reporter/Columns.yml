@@ -1,0 +1,34 @@
+﻿---
+ID: "fe24486b-f99d-465f-804d-ecce22b6db0f"
+Parent: "833e89d6-d0b4-4c4f-afb2-671f28ead9af"
+Template: "f8a17d6a-118e-4cd7-b5f5-88ff37a4f237"
+Path: /sitecore/system/Field types/Reporter/Columns
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: WordProcessing/32x32/insert_table.png
+- ID: "0f0a5388-0467-4a45-95c0-729b1d6db9fd"
+  Hint: Control
+  Value: 
+- ID: "6bf5ed07-bc70-42f4-bb77-c017d340950e"
+  Hint: Assembly
+  Value: Sitecore.Feature.Reports
+- ID: "9fe6154a-a16e-4827-99f6-f51533c34ec8"
+  Hint: Class
+  Value: Sitecore.Feature.Reports.Controls.ColumnsField
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20070416T123658
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

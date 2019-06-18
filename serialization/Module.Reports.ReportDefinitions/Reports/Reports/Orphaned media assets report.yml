@@ -1,0 +1,43 @@
+﻿---
+ID: "350d9f0b-051d-4c5e-bf50-a46bb1b4e221"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/Orphaned media assets report
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/ghost.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090813T115240
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: "{2B820570-CB3F-4644-9C04-2709BF0686BE}"
+    - ID: "b5ebdc93-c3ab-4438-89fb-a8d7f5552110"
+      Hint: Filters
+      Type: Multilist
+      Value: |
+        {3BE26B46-E7B0-4AF1-8BD1-9B164332B3E2}
+        {CF86F279-7C3D-43CD-BAE0-86FC15EFBF59}
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: "{EF12F271-E82B-473B-A851-5A57C06C1FA1}"
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: <p>This report helps identify any media items that are not referenced, and could potentially be deleted.</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{23A8D46E-FA4C-47A6-AE73-DCFA6AF0CCB7}"

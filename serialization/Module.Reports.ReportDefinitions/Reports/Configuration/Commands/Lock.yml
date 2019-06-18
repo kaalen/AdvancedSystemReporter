@@ -1,0 +1,31 @@
+﻿---
+ID: "4b7ed53c-6966-4d62-854e-bdd8ec913409"
+Parent: "f7bfc9af-bcb8-4da2-8bf1-1186177b1b9c"
+Template: "a2f37fa0-b644-4fa1-8dbe-6dd346f48abb"
+Path: /sitecore/system/Modules/Reports/Configuration/Commands/Lock
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080708T205553
+    - ID: "4754b397-f055-4d4a-ac74-fd09390bc8f3"
+      Hint: Title
+      Value: Lock
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a0c02c83-23e3-4a3d-95f4-037c79678314"
+      Hint: SingleItemContext
+      Type: Checkbox
+      Value: 1
+    - ID: "b026dcd1-c3e9-4061-9f7a-7a61f200d383"
+      Hint: Command
+      Value: "item:checkout"
+    - ID: "f48567f6-cc4c-4aa9-b722-eba7b878b40c"
+      Hint: Icon
+      Value: Network/32x32/lock.png

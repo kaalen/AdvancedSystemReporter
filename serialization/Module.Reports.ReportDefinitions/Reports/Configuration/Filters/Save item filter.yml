@@ -1,0 +1,27 @@
+﻿---
+ID: "a4c78df5-339c-4922-9f70-570826aabcf8"
+Parent: "4503299d-8b00-4e21-b5b4-8a71e5507199"
+Template: "1383ebc6-bcc4-451d-8e33-7f74921f6664"
+Path: /sitecore/system/Modules/Reports/Configuration/Filters/Save item filter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090806T135341
+    - ID: "49eb5881-0aea-4d84-9850-1f8a9a2183fe"
+      Hint: Class
+      Value: Sitecore.Feature.Reports.Filters.AuditFilter
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser
+    - ID: "60acfb3b-d34d-43d8-8b57-86d26b30dd5a"
+      Hint: Attributes
+      Value: Verb=Save item&Check in
+    - ID: "6fb5beba-ecd8-4b56-b20a-bf292193d491"
+      Hint: Assembly
+      Value: Sitecore.Feature.Reports

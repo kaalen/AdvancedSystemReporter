@@ -1,0 +1,18 @@
+﻿---
+ID: "a22bd79e-afe5-4f0b-b9ac-dfb1572c7aad"
+Parent: "13def994-4473-41d2-81a7-89baa670d019"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameter Types/Date picker
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090806T110640
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser

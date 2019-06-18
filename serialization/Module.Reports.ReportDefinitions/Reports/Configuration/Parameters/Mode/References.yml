@@ -1,0 +1,17 @@
+﻿---
+ID: "8e2674bc-3b13-4f2e-a973-deff012cd00d"
+Parent: "613161bf-2bbd-4505-888b-d8c687035ca1"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/Mode/References
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5871d-8232-4df5-8ee1-f2d038dee591"
+      Hint: Value
+      Value: references
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100426T163917

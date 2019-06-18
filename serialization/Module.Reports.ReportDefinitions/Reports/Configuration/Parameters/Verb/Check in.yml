@@ -1,0 +1,17 @@
+﻿---
+ID: "20cd3f3b-14f0-47da-b491-bda36f6657a6"
+Parent: "e17d33cf-5464-4a5d-8523-50adc3c35089"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/Verb/Check in
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5871d-8232-4df5-8ee1-f2d038dee591"
+      Hint: Value
+      Value: Check in
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090511T140332

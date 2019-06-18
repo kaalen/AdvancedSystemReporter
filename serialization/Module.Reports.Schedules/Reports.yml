@@ -1,0 +1,14 @@
+﻿---
+ID: "88db171f-75b8-4faf-ad69-60b5a22853de"
+Parent: "aa126621-3646-46db-a47f-2a7a3a29c0c0"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Tasks/Schedules/Feature/Reports
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170516T232801Z

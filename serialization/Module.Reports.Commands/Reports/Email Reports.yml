@@ -1,0 +1,71 @@
+﻿---
+ID: "34dfe48a-8b58-4e27-9199-e72a855d8237"
+Parent: "b4cea328-8cfa-4d5a-9206-08d338a3e0c8"
+Template: "93e0e6c6-d8ad-4ce1-95ee-d8c07c2f596d"
+Path: /sitecore/system/Tasks/Commands/Feature/Reports/Email Reports
+DB: master
+SharedFields:
+- ID: "4bc75539-d5c4-487b-af35-ff13d62bd286"
+  Hint: Method
+  Value: EmailReports
+- ID: "752579a7-ef2f-45b7-b9d1-9b682308b7a5"
+  Hint: Type
+  Value: Sitecore.Feature.Reports.Commands.ScheduledExecution,Sitecore.Feature.Reports
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|Everyone|pe|!*|pd|!*|ar|modules\Feature Report Admin|pe|+item:read|+item:write|pd|+item:write|+item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03f9af45-fdca-4496-bc3d-7e80d919a53d"
+      Hint: To
+      Value: 
+    - ID: "0f4d0401-1140-446e-b605-7462783c601a"
+      Hint: Text
+      Value: |
+        <p>Please find attached the latest reports from your local install of Sitecore.</p>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090818T110814
+    - ID: "3210a8a4-8850-4f34-a2d6-46662ebf044d"
+      Hint: Format
+      Value: XLSX
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser
+    - ID: "65c03ad1-fa58-4e3f-9bfa-662e0cced2cb"
+      Hint: SendEmpty
+      Type: Checkbox
+      Value: 0
+    - ID: "7829de7c-9234-45be-931d-f8c0d925f29d"
+      Hint: Subject
+      Value: Scheduled reports
+    - ID: "cea5f89d-99a7-4ed2-be12-5d879aec5698"
+      Hint: Active
+      Type: Checkbox
+      Value: 0
+    - ID: "d1492b7b-0912-4c49-9f47-1a6824936cce"
+      Hint: Reports
+      Type: Multilist
+      Value: |
+        {C10A7195-3FDE-46D5-8D87-780CDCC2629A}
+        {8E0EB407-84A3-46E5-9E7B-A4357970ACF5}
+        {6FBD694D-58CD-45B6-9DFE-6BE065917E6F}
+        {4C67890F-9914-49D9-8B23-24576C6319C6}
+        {2993E912-6873-4A0D-BF91-B4A1123E7BFC}
+        {8B6C8923-F58B-49F6-B90D-2326C040F6C5}
+        {8294830E-2D73-4717-8734-D3FC831224E4}
+        {98639C84-0D85-48FC-91BD-DD9E45ED84F7}
+        {95E4612F-F55F-4F15-B0DF-2CB7FBF72A72}
+        {417F573F-7126-4D7C-AF1C-8D759EBA21C8}
+    - ID: "df6402d0-d2c4-48fa-a01d-9df6d12aced8"
+      Hint: From
+      Value: sitecore@localhost.com

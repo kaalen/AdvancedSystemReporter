@@ -1,0 +1,17 @@
+﻿---
+ID: "95652d2f-04a7-4952-9ec8-acde41686c3c"
+Parent: "26afde8e-9b9b-4589-b1fd-ab62a068be33"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/Versions/all versions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5871d-8232-4df5-8ee1-f2d038dee591"
+      Hint: Value
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090623T114032

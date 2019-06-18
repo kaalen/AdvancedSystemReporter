@@ -1,0 +1,14 @@
+﻿---
+ID: "1171be64-6adc-4e55-b869-e0af1a7ad7d9"
+Parent: "13def994-4473-41d2-81a7-89baa670d019"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameter Types/User Selector
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090528T122655

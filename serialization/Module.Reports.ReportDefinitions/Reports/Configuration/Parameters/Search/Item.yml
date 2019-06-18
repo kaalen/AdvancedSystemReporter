@@ -1,0 +1,17 @@
+﻿---
+ID: "2b9f40f0-b858-4a38-91fe-933943a2f38f"
+Parent: "41eb70f2-4bd3-4d31-bca4-79a5f9e99bf6"
+Template: "107de518-349b-4ec6-9967-c8ede31910df"
+Path: /sitecore/system/Modules/Reports/Configuration/Parameters/Search/Item
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac5871d-8232-4df5-8ee1-f2d038dee591"
+      Hint: Value
+      Value: "-1"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090622T171436

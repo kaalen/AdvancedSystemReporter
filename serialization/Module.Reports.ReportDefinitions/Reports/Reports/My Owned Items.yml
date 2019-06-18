@@ -1,0 +1,38 @@
+﻿---
+ID: "41aaea3d-d8b1-472d-af8c-e5a83f6e2606"
+Parent: "30bb56d2-4f1e-4ecd-b7a6-d32a902dd8e5"
+Template: "55ecc766-bf85-4e85-92cb-53ae306f0414"
+Path: /sitecore/system/Modules/Reports/Reports/My Owned Items
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_document.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090514T114553
+    - ID: "9de630ae-6a85-4821-9842-e90d900769b0"
+      Hint: Viewers
+      Type: Multilist
+      Value: |
+        {F28FC608-581E-41F5-BA49-14D4151A854C}
+        {3AB1FBD3-B6CE-4E8D-B3DF-5BEC8EECF259}
+    - ID: "e6b9cd5f-58e8-407d-9d45-4fe36544ea86"
+      Hint: Commands
+      Type: Multilist
+      Value: |
+        {4B7ED53C-6966-4D62-854E-BDD8EC913409}
+        {586CB36D-FDCB-4FBB-8766-B5C4B810191B}
+        {3DDCB4A3-415F-4726-8262-4854A599878A}
+    - ID: "e9c5b093-0d53-4f39-9383-f5c839441562"
+      Hint: Description
+      Value: <p>Get a list of all the items you own. This inspects the owner property as set in the Security tab</p>
+    - ID: "f4033239-e21d-488d-990d-78e45760fce3"
+      Hint: Scanners
+      Type: Multilist
+      Value: "{A38B34F9-9E74-4640-BEC7-F7AB69387786}"

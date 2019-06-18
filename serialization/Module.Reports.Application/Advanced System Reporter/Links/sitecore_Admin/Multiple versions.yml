@@ -1,0 +1,14 @@
+﻿---
+ID: "da5e58db-00c2-400d-b046-d7ea58f5fe86"
+Parent: "52d584d8-1b50-43a1-bbe0-1176cf93361e"
+Template: "72450c9c-98c4-4117-88b7-573110c7e0c0"
+Path: /sitecore/content/Applications/Advanced System Reporter/Links/sitecore_Admin/Multiple versions
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20170503T034910:636293801500746671Z"

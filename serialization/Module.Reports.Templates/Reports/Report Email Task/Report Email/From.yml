@@ -1,0 +1,35 @@
+﻿---
+ID: "df6402d0-d2c4-48fa-a01d-9df6d12aced8"
+Parent: "da36f8b0-be20-4c1c-ac8e-27e1cf3c419c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Reports/Report Email Task/Report Email/From
+DB: master
+SharedFields:
+- ID: "337e20e1-999a-4eea-85ad-b58a03ae75cc"
+  Hint: Quick Action Bar
+  Type: tree list
+  Value: |
+    {469E570C-5FC3-48F2-9E33-8DC31246377C}
+    {59D4EE10-627C-4FD3-A964-61A88B092CBC}
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|Everyone|pe|!*|pd|!*|ar|modules\Feature Report Admin|pe|+field:write|+field:read|pd|+field:write|+field:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090818T100412
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\azcaser
