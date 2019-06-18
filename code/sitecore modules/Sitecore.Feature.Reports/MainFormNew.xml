@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--=============================================================
+    File: ASR.xml                                                   
+    Created by: sitecore/admin                                       
+    Created: 04/07/2008 15:01:03                                               
+==============================================================-->
+
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <ASR>
+    <FormPage Height="250px">
+      <Stylesheet Src="Ribbon.css" DeviceDependant="true" runat="server" />
+      <Stylesheet runat="server" Src="/sitecore modules/Sitecore.Feature.Reports/Sitecore.Feature.Reports.css" />
+
+      <CodeBeside Type="Sitecore.Feature.Reports.MainFormNew,Sitecore.Feature.Reports"/>
+
+      <GridPanel class="scBackground" ID="MainPanel" vAlign="top" Height="100%" Width="100%" Cellpadding="0">
+        <Border ID="RibbonBorder">
+          <RibbonContainer ID="MyRibbon">
+            <Ribbon ID="InnerRibbon"></Ribbon>
+          </RibbonContainer>
+        </Border>
+        <Section Width="100%" ID="InformationSection" Header="About this Report" Visible="false">
+          <div style="margin:10px">
+            <Literal ID="Description"/>
+          </div>
+        </Section>
+
+
+        <Section Width="100%" ID="ConfigSection" Header="Configure Report" Visible="false">
+        </Section>
+
+        <GridPanel Width="100%" Height="100%" Columns="3" GridPanel.Height="100%" Style="table-layout:fixed">
+
+          <Grid id="Items"
+            AutoFocusSearchBox="false"
+            RunningMode="Callback"
+            CssClass="Grid"
+            ShowHeader="true"
+            HeaderCssClass="GridHeader"
+            
+            FooterCssClass="GridFooter"
+                
+            GroupByCssClass="GroupByCell"
+            GroupByTextCssClass="GroupByText"
+            GroupBySortAscendingImageUrl="group_asc.gif"
+            GroupBySortDescendingImageUrl="group_desc.gif"
+            GroupBySortImageWidth="10"
+            GroupBySortImageHeight="10"
+
+            GroupingNotificationTextCssClass="GridHeaderText"
+            GroupingPageSize="5"
+            
+            PageSize="15"
+            PagerStyle="Slider"
+            PagerTextCssClass="GridFooterText"
+            PagerButtonHoverEnabled="True"
+            PagerImagesFolderUrl="/sitecore/shell/themes/standard/componentart/grid/pager/"
+            ShowSearchBox="true"
+            SearchTextCssClass="GridHeaderText scTextAlignRight "
+            SearchBoxCssClass="SearchBox"
+      	    
+            SliderHeight="20"
+            SliderWidth="150"
+            SliderGripWidth="24"
+            SliderPopupOffsetX="20"
+            SliderPopupClientTemplateId="SliderTemplate"
+            
+            TreeLineImagesFolderUrl="/sitecore/shell/themes/standard/componentart/grid/lines/"
+            TreeLineImageWidth="22"
+            TreeLineImageHeight="19"
+            
+            PreExpandOnGroup="false"
+            ImagesBaseUrl="/sitecore/shell/themes/standard/componentart/grid/"
+            IndentCellWidth="22"
+
+            LoadingPanelClientTemplateId="LoadingFeedbackTemplate"
+            LoadingPanelPosition="MiddleCenter"
+            
+            Width="100%" runat="server">
+
+            <Levels>
+              <GridLevel
+                DataKeyField="ArchivalId"
+                ShowTableHeading="false"
+                ShowSelectorCells="false"
+                RowCssClass="Row"
+                ColumnReorderIndicatorImageUrl="reorder.gif"
+                DataCellCssClass="DataCell"
+                HeadingCellCssClass="HeadingCell"
+                HeadingCellHoverCssClass="HeadingCellHover"
+                HeadingCellActiveCssClass="HeadingCellActive"
+                HeadingRowCssClass="HeadingRow"
+                HeadingTextCssClass="HeadingCellText"
+                SelectedRowCssClass="SelectedRow"
+                GroupHeadingCssClass="GroupHeading"
+                SortAscendingImageUrl="asc.gif"
+                SortDescendingImageUrl="desc.gif"
+                SortImageWidth="13"
+                SortImageHeight="13" runat="server">
+                <Columns runat="server">
+                  <GridColumn DataField="ArchivalId" Visible="false" runat="server"/>
+                  <GridColumn DataField="Name" AllowGrouping="false" IsSearchable="true" SortedDataCellCssClass="SortedDataCell" HeadingText="Name" runat="server" />
+                  <GridColumn DataField="OriginalLocation" AllowGrouping="true" IsSearchable="true" SortedDataCellCssClass="SortedDataCell" HeadingText="Original Location" runat="server" />
+                  <GridColumn DataField="ArchiveLocalDate" AllowGrouping="true" IsSearchable="false" SortedDataCellCssClass="SortedDataCell" HeadingText="Date" runat="server" />
+                  <GridColumn DataField="ArchivedBy" AllowGrouping="true" IsSearchable="true" SortedDataCellCssClass="SortedDataCell" HeadingText="By" runat="server" />
+                </Columns>
+              </GridLevel>
+            </Levels>
+            <ClientTemplates>
+              <ClientTemplate Id="LoadingFeedbackTemplate" runat="server">
+                <table cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td style="font-size:10px;">
+                      <Literal Text="Loading..." runat="server" />;
+                    </td>
+                    <td>
+                      <img src="/sitecore/shell/themes/standard/componentart/grid/spinner.gif" width="16" height="16" border="0" />
+                    </td>
+                  </tr>
+                </table>
+              </ClientTemplate>
+
+              <ClientTemplate Id="SliderTemplate" runat="server">
+                <div class="SliderPopup">
+                  ## DataItem.PageIndex + 1 ## / ## Items.PageCount ##
+                </div>
+              </ClientTemplate>
+            </ClientTemplates>
+          </Grid>
+          <Scrollbox Height="100%" Width="100%" Padding="0">
+            <ASRListview ID="ItemList" Background="white" Multiselect="true">
+            </ASRListview>
+          </Scrollbox>
+
+        </GridPanel>
+        <Border Background="white">
+          <Space/>
+        </Border>
+        <Border Height="22" GridPanel.Height="22" Background="#e9e9e9">
+          <GridPanel Columns="2" Width="100%" Height="100%" CellPadding="2">
+            <Border Border="1px inset" Padding="2" Height="100%">
+              <Literal ID="Status" Text="Open a report to get started."/>
+            </Border>
+
+          </GridPanel>
+        </Border>
+      </GridPanel>
+    </FormPage>
+  </ASR>
+</control>

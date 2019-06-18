@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\..\..\..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\..\..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E189BA3-7E40-47F8-9552-08558E06A8AA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore.Feature.Reports</RootNamespace>
+    <AssemblyName>Sitecore.Feature.Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WebGreaseLibPath>..\..\..\..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.4" />
+    <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.4" />
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.4" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="1.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Net.Compilers" Version="1.3.2" />
+    <PackageReference Include="Microsoft.Web.Infrastructure" Version="1.0.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.ComponentModel" Version="4.0.1" />
+    <PackageReference Include="System.Diagnostics.Debug" Version="4.0.11" />
+    <PackageReference Include="System.Globalization" Version="4.0.11" />
+    <PackageReference Include="System.Linq" Version="4.1.0" />
+    <PackageReference Include="System.Linq.Expressions" Version="4.1.0" />
+    <PackageReference Include="System.Reflection" Version="4.1.0" />
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Kernel" Version="[9.1.1]" />
+    <PackageReference Include="Sitecore.Client" Version="[9.1.1]" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="[2.5.0]" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ComponentArt.Web.UI">
+      <HintPath>..\..\..\..\lib\Sitecore9.1.1\ComponentArt.Web.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\ExportBaseCommand.cs" />
+    <Compile Include="Commands\ExportHtml.cs" />
+    <Compile Include="Commands\OpenItem.cs" />
+    <Compile Include="Commands\ReportEmailTask.cs" />
+    <Compile Include="Commands\Save.cs" />
+    <Compile Include="Commands\ScheduledExecution.cs" />
+    <Compile Include="Commands\SelectAll.cs" />
+    <Compile Include="Commands\ChangeToVersionedTemplate.cs" />
+    <Compile Include="Commands\CheckIn.cs" />
+    <Compile Include="Commands\SetContentOwner.cs" />
+    <Compile Include="Commands\TrimVersions.cs" />
+    <Compile Include="Controls\ASRComboEdit.cs" />
+    <Compile Include="Controls\CommandsPanel.cs" />
+    <Compile Include="Controls\DateTimePicker.cs" />
+    <Compile Include="Controls\RibbonContainer.cs" />
+    <Compile Include="DisplayItems\ItemWorkflowEvent.cs" />
+    <Compile Include="DisplayItems\MediaUsageItem.cs" />
+    <Compile Include="DomainObjects\BaseItem.cs" />
+    <Compile Include="Export\IExport.cs" />
+    <Compile Include="Export\XlsxExport.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Filters\ContainsBrokenLinks.cs" />
+    <Compile Include="Filters\CreatedBetween.cs" />
+    <Compile Include="Filters\DueDateFilter.cs" />
+    <Compile Include="Filters\ExcludeFolders.cs" />
+    <Compile Include="Filters\FieldContainsValue.cs" />
+    <Compile Include="Filters\FieldDoesNotContainValue.cs" />
+    <Compile Include="Filters\HasSecurity.cs" />
+    <Compile Include="Filters\HasWorkflow.cs" />
+    <Compile Include="Filters\InheritsFromTemplate.cs" />
+    <Compile Include="Filters\InvalidName.cs" />
+    <Compile Include="Filters\ItemsOfType.cs" />
+    <Compile Include="Filters\ItemsWithResettableVersions.cs" />
+    <Compile Include="Filters\ManyVersions.cs" />
+    <Compile Include="Filters\NoPublishableVersions.cs" />
+    <Compile Include="Filters\NoReferrers.cs" />
+    <Compile Include="Filters\NoWorkflow.cs" />
+    <Compile Include="Filters\PublishedBetween.cs" />
+    <Compile Include="Filters\RegexFieldFilter.cs" />
+    <Compile Include="Filters\RegexFilter.cs" />
+    <Compile Include="Filters\StaleWorkflowItems.cs" />
+    <Compile Include="Filters\ValidationErrors.cs" />
+    <Compile Include="Filters\WorkflowEventDateFilter.cs" />
+    <Compile Include="Filters\WorkflowEventsFilter.cs" />
+    <Compile Include="Scanners\AllRolesScanner.cs" />
+    <Compile Include="Scanners\AuditPerItem.cs" />
+    <Compile Include="Exceptions\DatabaseNotFoundException.cs" />
+    <Compile Include="Exceptions\ParameterException.cs" />
+    <Compile Include="Exceptions\RootItemNotFoundException.cs" />
+    <Compile Include="Scanners\DatabaseScanner.cs" />
+    <Compile Include="Scanners\LinkedItemsScanner.cs" />
+    <Compile Include="Scanners\OwnedItemsScanner.cs" />
+    <Compile Include="Scanners\PublishableItems.cs" />
+    <Compile Include="Scanners\SingleItemScanner.cs" />
+    <Compile Include="Scanners\WorkflowHistory.cs" />
+    <Compile Include="SetContentOwnerPage.cs" />
+    <Compile Include="sitecore modules\Sitecore.Feature.Reports\VerifyModuleConfig.aspx.cs">
+      <DependentUpon>VerifyModuleConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sitecore modules\Sitecore.Feature.Reports\VerifyModuleConfig.aspx.designer.cs">
+      <DependentUpon>VerifyModuleConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore\shell\download.aspx.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates.cs" />
+    <Compile Include="Viewers\AliasViewer.cs" />
+    <Compile Include="Viewers\DueDateViewer.cs" />
+    <Compile Include="Viewers\ItemViewer.cs" />
+    <Compile Include="Filters\LockFilter.cs" />
+    <Compile Include="Filters\MultipleVersions.cs" />
+    <Compile Include="Filters\NameLengthFilter.cs" />
+    <Compile Include="Filters\NumberChildrenFilter.cs" />
+    <Compile Include="Filters\NumberFilter.cs" />
+    <Compile Include="Scanners\QueryScanner.cs" />
+    <Compile Include="Filters\UnpublishedBetween.cs" />
+    <Compile Include="Filters\AuditFilter.cs" />
+    <Compile Include="DisplayItems\AuditItem.cs" />
+    <Compile Include="Filters\LogFilter.cs" />
+    <Compile Include="DisplayItems\LogItem.cs" />
+    <Compile Include="Scanners\LogScanner.cs" />
+    <Compile Include="Viewers\ItemViewerEscaped.cs" />
+    <Compile Include="Viewers\LogViewer.cs" />
+    <Compile Include="Filters\TypeFilter.cs" />
+    <Compile Include="Scanners\FileScanner.cs" />
+    <Compile Include="Scanners\PresentationScanner.cs" />
+    <Compile Include="Scanners\BrokenLinksScanner.cs" />
+    <Compile Include="Scanners\MediaUsageScanner.cs" />
+    <Compile Include="Scanners\WorkflowEventScanner.cs" />
+    <Compile Include="Commands\Kick.cs" />
+    <Compile Include="Scanners\SessionsScanner.cs" />
+    <Compile Include="Viewers\RoleViewer.cs" />
+    <Compile Include="Viewers\SessionsViewer.cs" />
+    <Compile Include="Scanners\AllUsersScanner.cs" />
+    <Compile Include="Viewers\UserProfileViewer.cs" />
+    <Compile Include="Viewers\UserRolesViewer.cs" />
+    <Compile Include="Viewers\UserViewer.cs" />
+    <Compile Include="Viewers\ItemLinkViewer.cs" />
+    <Compile Include="Commands\CreateLink.cs" />
+    <Compile Include="Commands\Email.cs" />
+    <Compile Include="Commands\ExportCSV.cs" />
+    <Compile Include="Commands\ExportExcel.cs" />
+    <Compile Include="Commands\ExportXML.cs" />
+    <Compile Include="Commands\Open.cs" />
+    <Compile Include="Commands\Refresh.cs" />
+    <Compile Include="Commands\Run.cs" />
+    <Compile Include="Commands\SetOwner.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Controls\ColumnEditorForm.cs" />
+    <Compile Include="Controls\ColumnsField.cs" />
+    <Compile Include="Controls\ItemSelector.cs" />
+    <Compile Include="Controls\ItemSelectorDialog.cs" />
+    <Compile Include="Controls\LinkButton.cs" />
+    <Compile Include="Controls\ListView.cs" />
+    <Compile Include="Controls\ToolButton.cs" />
+    <Compile Include="Controls\Toolmenu.cs" />
+    <Compile Include="Controls\ToolMenuButton.cs" />
+    <Compile Include="Controls\UserSelector.cs" />
+    <Compile Include="Current.cs" />
+    <Compile Include="DomainObjects\Column.cs" />
+    <Compile Include="DomainObjects\ParameterItem.cs" />
+    <Compile Include="DomainObjects\ParameterTypeItem.cs" />
+    <Compile Include="DomainObjects\ScannerItem.cs" />
+    <Compile Include="DomainObjects\ViewerItem.cs" />
+    <Compile Include="Commands\ApplyWorkflow.cs" />
+    <Compile Include="Commands\ApproveCheat.cs" />
+    <Compile Include="Commands\DeleteItem.cs" />
+    <Compile Include="Commands\FixItemName.cs" />
+    <Compile Include="Commands\RemoveVersions.cs" />
+    <Compile Include="Commands\ResetIconField.cs" />
+    <Compile Include="Commands\ResetVersionNumber.cs" />
+    <Compile Include="Fields\FieldHelper.cs" />
+    <Compile Include="Fields\ItemPath.cs" />
+    <Compile Include="Fields\ReferenceField.cs" />
+    <Compile Include="Fields\User.cs" />
+    <Compile Include="Fields\WorkflowState.cs" />
+    <Compile Include="Filters\InfoFilter.cs" />
+    <Compile Include="Filters\IsInState.cs" />
+    <Compile Include="Filters\PassesValidation.cs" />
+    <Compile Include="Filters\Rejected.cs" />
+    <Compile Include="Scanners\ItemScanner.cs" />
+    <Compile Include="Viewers\DetailedUserViewer.cs" />
+    <Compile Include="Viewers\DetailedViewer.cs" />
+    <Compile Include="Viewers\MediaUsageViewer.cs" />
+    <Compile Include="Viewers\RejectedViewer.cs" />
+    <Compile Include="Viewers\UserLicenseViewer.cs" />
+    <Compile Include="Viewers\ValidationViewer.cs" />
+    <Compile Include="Viewers\WorkflowEventViewer.cs" />
+    <Compile Include="Viewers\WorkflowStates.cs" />
+    <Compile Include="Viewers\WorkflowStateViewer.cs" />
+    <Compile Include="Export\CsvExport.cs" />
+    <Compile Include="Export\HtmlExport.cs" />
+    <Compile Include="Export\XMLExport.cs" />
+    <Compile Include="Interface\BaseFilter.cs" />
+    <Compile Include="Interface\BaseReportObject.cs" />
+    <Compile Include="Interface\BaseScanner.cs" />
+    <Compile Include="Interface\BaseViewer.cs" />
+    <Compile Include="Interface\DisplayElement.cs" />
+    <Compile Include="Interface\Report.cs" />
+    <Compile Include="ReportRunner.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="DomainObjects\CommandItem.cs" />
+    <Compile Include="DomainObjects\FilterItem.cs" />
+    <Compile Include="DomainObjects\ReportItem.cs" />
+    <Compile Include="MainForm.cs">
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DomainObjects\ReferenceItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\editablecombo.js" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\MainForm.xml" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\Controls\Column.xml" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\Controls\ColumnEditor.xml" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\Controls\ItemSelectorDialog.xml" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\SetContentOwner.xaml.xml" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\Sitecore.Feature.Reports.css">
+      <DependentUpon>Sitecore.Feature.Reports.scss</DependentUpon>
+    </Content>
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\Sitecore.Feature.Reports.min.css">
+      <DependentUpon>Sitecore.Feature.Reports.css</DependentUpon>
+    </Content>
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\VerifyModuleConfig.aspx" />
+    <Content Include="sitecore\shell\download.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Feature\Sitecore.Feature.Reports.Serialization.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Config\Include\Feature\Sitecore.Feature.Reports.config" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="sitecore modules\Sitecore.Feature.Reports\Sitecore.Feature.Reports.scss" />
+    <Content Include="README.md" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Schedule\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56365/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

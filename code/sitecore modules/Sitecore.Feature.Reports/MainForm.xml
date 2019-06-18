@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <Sitecore.Feature.Reports.MainForm>
+    <FormPage Height="250px">
+      <Stylesheet Src="Ribbon.css" DeviceDependant="true" runat="server" />
+      <Stylesheet runat="server" Src="/sitecore modules/Sitecore.Feature.Reports/Sitecore.Feature.Reports.css" />
+
+      <CodeBeside Type="Sitecore.Feature.Reports.MainForm,Sitecore.Feature.Reports"/>
+
+      <GridPanel class="scBackground" ID="MainPanel" vAlign="top" Height="100%" Width="100%" Cellpadding="0" Fixed="true" Style="table-layout:fixed">
+        <Border ID="RibbonBorder">
+          <RibbonContainer ID="MyRibbon">
+            <Ribbon ID="InnerRibbon"></Ribbon>
+          </RibbonContainer>
+        </Border>
+        <Section Width="100%" ID="InformationSection" Header="About this Report" Visible="false">
+          <div style="margin:10px">
+            <Literal ID="Description"/>
+          </div>
+        </Section>
+
+        <Section Width="100%" ID="ConfigSection" Header="Configure Report" Visible="false">
+        </Section>
+
+        <Scrollbox Height="400px" Class="scScrollbox" Background="window" Border="none" Padding="5px" GridPanel.Height="100%">
+          <ListView ID="ItemList" Background="white" Multiselect="true" Height="400px">
+          </ListView>
+        </Scrollbox>
+
+        <Border Background="white">
+          <Space/>
+        </Border>
+        <Border Background="#e9e9e9">
+          <GridPanel Columns="2" Width="100%" Height="100%" CellPadding="2">
+            <Border Border="1px inset" Padding="2" Height="100%" class="paging-controls">
+              <Literal ID="Status" Text="Open a report to get started." class="status"/>
+            </Border>
+
+          </GridPanel>
+        </Border>
+      </GridPanel>
+    </FormPage>
+  </Sitecore.Feature.Reports.MainForm>
+</control>
