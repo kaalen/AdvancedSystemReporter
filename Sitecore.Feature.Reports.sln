@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Reports", "Sitecore.Feature.Reports.csproj", "{4E189BA3-7E40-47F8-9552-08558E06A8AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Reports", "src\code\Sitecore.Feature.Reports.csproj", "{4E189BA3-7E40-47F8-9552-08558E06A8AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{8A2B25FB-30E5-4140-BDDA-3BBF33F879A1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		src\code\App_Config\Include\Feature\z.Sitecore.Feature.Reports.DevSettings.config = src\code\App_Config\Include\Feature\z.Sitecore.Feature.Reports.DevSettings.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
