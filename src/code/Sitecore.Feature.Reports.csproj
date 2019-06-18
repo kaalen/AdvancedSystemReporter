@@ -274,6 +274,9 @@
     <Compile Include="DomainObjects\ReferenceItem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\packages\Advanced System Reporter-Download.xml" />
+    <Content Include="App_Data\packages\Advanced System Reporter.xml" />
+    <Content Include="App_Data\Release Notes.txt" />
     <Content Include="sitecore modules\Sitecore.Feature.Reports\editablecombo.js" />
     <Content Include="sitecore modules\Sitecore.Feature.Reports\MainForm.xml" />
     <Content Include="sitecore modules\Sitecore.Feature.Reports\Controls\Column.xml" />
@@ -298,13 +301,18 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="App_Config\Security\domains.config.xdt" />
+    <Content Include="App_Data\packages\Advanced System Reporter-Download-1.0.zip" />
+    <Content Include="App_Data\packages\Advanced System Reporter.package" />
+    <Content Include="App_Data\packages\Advanced System Reporter.zip" />
+    <Content Include="App_Data\packages\Sitecore-Reports-Module.package">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="sitecore modules\Sitecore.Feature.Reports\Sitecore.Feature.Reports.scss" />
-    <Content Include="README.md" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
