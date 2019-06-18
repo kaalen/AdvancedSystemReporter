@@ -18,4 +18,4 @@ Languages:
         sitecore\Admin
     - ID: "eb14c49d-b95c-4104-86f7-d5c96fa33952"
       Hint: Parameters
-      Value: "id={6EDC21AD-4C9B-4365-98D9-04A4694A9765}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content/Unitywater/Home&{D77D964B-FA9A-459D-82CF-BC9E05A3E9DF}^ContentOwner="
+      Value: "id={6EDC21AD-4C9B-4365-98D9-04A4694A9765}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content&{D77D964B-FA9A-459D-82CF-BC9E05A3E9DF}^ContentOwner="

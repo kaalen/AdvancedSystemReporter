@@ -17,7 +17,7 @@ SharedFields:
     <link linktype="internal" url="/Applications/Advanced System Reporter" querystring="" id="{605C3AD5-4D6E-4297-98C9-7638BE5A82EA}" target="" />
 - ID: "90a4607c-71b4-4d46-a921-25ef798193d8"
   Hint: Parameters
-  Value: "id={A42FBEDE-A616-4757-9BB1-9109F3C296E1}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content/Unitywater/Home"
+  Value: "id={A42FBEDE-A616-4757-9BB1-9109F3C296E1}&{ADC1E4E4-541B-45B8-BF65-57D4B02008F4}^Root=/sitecore/content"
 Languages:
 - Language: en
   Fields:

@@ -21,7 +21,7 @@ Languages:
       Value: Root node
     - ID: "6588527a-bdb0-4474-8912-c1872a294bde"
       Hint: Default value
-      Value: /sitecore/content/Unitywater/Home
+      Value: /sitecore/content
     - ID: "68030a84-f6f1-473f-bb09-6168ac9409a4"
       Hint: Type
       Value: Item Selector
